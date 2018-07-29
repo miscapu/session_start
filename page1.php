@@ -9,3 +9,8 @@
 session_start();
 //Show in Screen 'Welcome to page #1'
 echo "Welcome to page #1";
+//Using the superglobal $_SESSION to save data
+$_SESSION['favcolor'] = 'blue';
+$_SESSION['animal'] = 'fish';
+$_SESSION['time'] = time();
+
