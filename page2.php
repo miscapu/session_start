@@ -7,3 +7,5 @@
  * */
 //Starting session with session_start
 session_start();
+//Show in display "Welcome to page #2"
+echo 'Welcome to Page #2';
