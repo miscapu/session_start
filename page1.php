@@ -16,4 +16,4 @@ $_SESSION['time'] = time();
 //Works if session cookie was accepted
 echo '<br /> <a href="page2.php">Page 2</a>';
 //Or maybe pass along the session id, if needed
-echo '<br /> <a href="page2.php"?' . SID . '">Page 2</a>';
+echo '<br /> <a href="page2.php?' . session_name() . ' =' . session_id() . '">Page 2</a>';
